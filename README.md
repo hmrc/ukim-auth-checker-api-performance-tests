@@ -14,10 +14,10 @@ Start Mongo Docker container as follows:
 docker run --rm -d -p 27017:27017 --name mongo mongo:4.4
 ```
 
-Start `PLATFORM_TEST_EXAMPLE_UI_JOURNEY_TESTS` services as follows:
+Start `UKIM_ALL` services as follows:
 
 ```bash
-sm2 --start PLATFORM_TEST_EXAMPLE_UI_JOURNEY_TESTS
+sm2 --start UKIM_ALL
 ```
 
 ### Logging
@@ -71,3 +71,6 @@ sbt scalafmtAll
 ## License
 
 This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+
+## Test Reports  
+Go to Target and Open Index HTML file in any browser of your run run
